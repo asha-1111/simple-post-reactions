@@ -1,0 +1,40 @@
+.spr-reactions{
+  margin-top: 14px;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  display: inline-block;
+}
+.spr-buttons{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.spr-btn{
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  padding: 8px 12px;
+  background: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 1;
+}
+.spr-btn:hover{ background: #f9fafb; }
+.spr-btn:disabled{ opacity:.6; cursor:not-allowed; }
+.spr-icon{ font-size: 16px; }
+.spr-count{
+  font-weight: 600;
+  min-width: 18px;
+  text-align: right;
+  display: inline-block;
+}
+.spr-msg{
+  margin-top: 8px;
+  font-size: 13px;
+  color: #065f46;
+}
+.spr-table th, .spr-table td{ vertical-align: middle; }
